@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Поле ромашек</title>
+  </head>
+  <body>
+    <h1>Message board homepages</h1>
+    <ul>
+      {% for post in object_list %}
+        <li>{{ post }}</li>
+      {% endfor %}
+    </ul>
+
+  </body>
+</html>
